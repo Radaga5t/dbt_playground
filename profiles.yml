@@ -10,3 +10,12 @@ dbt_playground:
             dbname: "postgres"
             schema: "public"
             threads: 5
+        test_schema_eugene:
+            type: postgres
+            host: "localhost"
+            user: "postgres"
+            password: "postgres"
+            port: 32768
+            dbname: "postgres"
+            schema: "eugene_test"
+            threads: 5
